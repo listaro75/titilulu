@@ -6,7 +6,7 @@
 /*   By: luciendacunha <luciendacunha@student.42    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/20 11:35:36 by luciendacun       #+#    #+#             */
-/*   Updated: 2024/10/20 14:35:55 by luciendacun      ###   ########.fr       */
+/*   Updated: 2024/10/20 15:21:19 by luciendacun      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -60,9 +60,11 @@ int main(int argc, char **argv)
 			y++;
 		}
 		ft_putchar('\n');
-		y = 0; 
+		y = 0;
 		x++;
+		x = 0;
 	}
+
 
 	return 0;	
 }
